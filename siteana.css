@@ -1,0 +1,224 @@
+.pagina {
+    height: 100%;
+    background-color: #6C727F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin: 0;
+}
+.fundo2{
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.borda{
+    width: 50%;
+}
+.parteescura{
+    background-color: #121826;
+    border-radius: 50px 0px 0px 50px;
+}
+.conteudoparteescura{
+    display: flex;
+    flex-direction:column;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.tamanhoimagem{
+    width: 50%;
+}
+.tamanhotextobranco{
+    font-family: Mohave;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+
+color: #FFFFFF;
+}
+.verdinho{
+    font-family: Mohave;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #B1E457;
+    margin-top: 30px;
+}
+.branquinho{
+    font-family: Mohave;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+
+color: #FFFFFF;
+margin-bottom: 2px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+    .button1{
+        background-color: #212936; 
+        padding: 5px 20px;
+        border-radius: 50px;
+        font-family: Mohave;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #B1E457;
+    margin-right: 15px;
+    }
+    .button2{
+        background-color: #B1E457; 
+        padding: 5px 20px;
+        border-radius: 50px;
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #121826;
+        display: flex;
+        align-items: center;
+    }
+    .margem2{
+        margin-right: 8px;
+    }
+    .partebranca{
+        justify-content: center;
+        align-items: center;
+        display: flex;        
+    }
+    .parteescuradaborda{
+        background-color: #121826;
+        border-radius: 50px;
+        width: 60%;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;  
+        flex-direction: column;
+    }
+    .tamanhoimagem1{
+        width: 30%;
+        margin-bottom: 15px;
+    }
+    .contenechatinho{
+        background-color: #212936;
+        border-radius: 45px;
+        width: 75%;
+        height: 65%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .textobranco2{
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .textobranco3{
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 10px;
+        color: #B1E457;
+    }
+    .textowelcome{
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #B1E457;   
+    }
+    .textosign{
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #6C727F; 
+        margin-bottom: 15px;
+    }
+    .email{
+        background-color: #6C727F; 
+        padding: 5px 20px;
+        border-radius: 50px;
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        width: 75%;
+    }
+    .senha{
+        background-color: #6C727F; 
+        padding: 5px 20px;
+        border-radius: 50px;
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        width: 75%;
+    }
+    .login{
+        background-color: #B1E457; 
+        padding: 5px 20px;
+        border-radius: 50px;
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #6C727F;
+        width: 75%;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .text {
+        background-color: #6C727F; 
+        border: none;
+        color: #FFFFFF;
+        font-family: Mohave;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .text:focus{
+        outline: none;   
+    }
